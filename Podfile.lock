@@ -23,10 +23,11 @@ PODS:
     - Starscream (~> 3.1)
   - Starscream (3.1.1)
   - Then (2.7.0)
+  - YNSearch (2.4.0)
 
 DEPENDENCIES:
   - BEMCheckBox
-  - DropDown (= 2.3.2)
+  - DropDown
   - FSCalendar
   - Hashtags
   - JJFloatingActionButton
@@ -36,6 +37,7 @@ DEPENDENCIES:
   - SnapKit (~> 5.0.0)
   - Socket.IO-Client-Swift (~> 15.2.0)
   - Then
+  - YNSearch
 
 SPEC REPOS:
   trunk:
@@ -54,6 +56,7 @@ SPEC REPOS:
     - Socket.IO-Client-Swift
     - Starscream
     - Then
+    - YNSearch
 
 SPEC CHECKSUMS:
   Alamofire: f3b09a368f1582ab751b3fff5460276e0d2cf5c9
@@ -71,7 +74,8 @@ SPEC CHECKSUMS:
   Socket.IO-Client-Swift: 1e3e3a1f09f3312a167f0d781eb2f383d477357c
   Starscream: 4bb2f9942274833f7b4d296a55504dcfc7edb7b0
   Then: acfe0be7e98221c6204e12f8161459606d5d822d
+  YNSearch: 56d4aad4547fd1efce355cccc220a94735b1ea14
 
-PODFILE CHECKSUM: 69d19bebd3c951a93a1c72607a8e10a2e74c0bfa
+PODFILE CHECKSUM: 99581d49604ac5a4a3e0c7b0d70419e864f83e7f
 
 COCOAPODS: 1.11.2

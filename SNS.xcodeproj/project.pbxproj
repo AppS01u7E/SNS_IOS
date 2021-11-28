@@ -3,14 +3,19 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 55;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		0B30C061CC03EA5F9C137916 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0EEA8CD7F771D3CD7594F3DC /* LaunchScreen.storyboard */; };
 		1C8FE85621E90BFE074A20E8 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5783F48FA9D3B1D293B0605 /* SceneDelegate.swift */; };
 		1DCB5C533FDCD12789165887 /* Bundle+SNS.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1A433A3C0E9CE42FEFC42D4 /* Bundle+SNS.swift */; };
-		2A9F698855A02003EB67F46D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A381D1062074204EB4A2ACE6 /* ViewController.swift */; };
+		2A9F698855A02003EB67F46D /* AuthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A381D1062074204EB4A2ACE6 /* AuthViewController.swift */; };
+		38A947A02753BC6600C35779 /* NotoSansCJKkr-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 38A9479D2753BC6500C35779 /* NotoSansCJKkr-Bold.otf */; };
+		38A947A12753BC6600C35779 /* NotoSansCJKkr-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = 38A9479E2753BC6500C35779 /* NotoSansCJKkr-Regular.otf */; };
+		38A947A22753BC6600C35779 /* NotoSansCJKkr-Medium.otf in Resources */ = {isa = PBXBuildFile; fileRef = 38A9479F2753BC6600C35779 /* NotoSansCJKkr-Medium.otf */; };
+		38A947A72753BD5B00C35779 /* Font.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38A947A62753BD5B00C35779 /* Font.swift */; };
+		38D9AD682753BEBE00AD1806 /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38D9AD672753BEBE00AD1806 /* Color.swift */; };
 		602D8629E34C291E5301A407 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8180E879C5A2D640DF1B5C66 /* Assets.xcassets */; };
 		A3B88C16F88D5764B2C93B59 /* Pods_SNS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 004BD366BBC0EF5EEC231782 /* Pods_SNS.framework */; };
 		AA9EB7E906EEADCCAE281EE5 /* Assets+SNS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82E9F6F6922DB8F516708E14 /* Assets+SNS.swift */; };
@@ -34,10 +39,15 @@
 		004BD366BBC0EF5EEC231782 /* Pods_SNS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SNS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		02D1D3E1040B529D87EF4BBC /* Pods-SNS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SNS.debug.xcconfig"; path = "Target Support Files/Pods-SNS/Pods-SNS.debug.xcconfig"; sourceTree = "<group>"; };
 		0EEA8CD7F771D3CD7594F3DC /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		38A9479D2753BC6500C35779 /* NotoSansCJKkr-Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NotoSansCJKkr-Bold.otf"; sourceTree = "<group>"; };
+		38A9479E2753BC6500C35779 /* NotoSansCJKkr-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NotoSansCJKkr-Regular.otf"; sourceTree = "<group>"; };
+		38A9479F2753BC6600C35779 /* NotoSansCJKkr-Medium.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NotoSansCJKkr-Medium.otf"; sourceTree = "<group>"; };
+		38A947A62753BD5B00C35779 /* Font.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Font.swift; sourceTree = "<group>"; };
+		38D9AD672753BEBE00AD1806 /* Color.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Color.swift; sourceTree = "<group>"; };
 		5BBA6302B21C1D9E206A0E03 /* SNS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SNS.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8180E879C5A2D640DF1B5C66 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		82E9F6F6922DB8F516708E14 /* Assets+SNS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Assets+SNS.swift"; sourceTree = "<group>"; };
-		A381D1062074204EB4A2ACE6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A381D1062074204EB4A2ACE6 /* AuthViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthViewController.swift; sourceTree = "<group>"; };
 		B2A3BA0266EB0E41914E894A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		E1A433A3C0E9CE42FEFC42D4 /* Bundle+SNS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Bundle+SNS.swift"; sourceTree = "<group>"; };
 		E6E1BF9516B98E407A33B34D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -68,10 +78,38 @@
 		27A89AAD35F1BA549C1F2B51 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				38A947A32753BC6900C35779 /* Font */,
 				8180E879C5A2D640DF1B5C66 /* Assets.xcassets */,
 				0EEA8CD7F771D3CD7594F3DC /* LaunchScreen.storyboard */,
 			);
 			path = Resources;
+			sourceTree = "<group>";
+		};
+		38A947A32753BC6900C35779 /* Font */ = {
+			isa = PBXGroup;
+			children = (
+				38A9479D2753BC6500C35779 /* NotoSansCJKkr-Bold.otf */,
+				38A9479F2753BC6600C35779 /* NotoSansCJKkr-Medium.otf */,
+				38A9479E2753BC6500C35779 /* NotoSansCJKkr-Regular.otf */,
+			);
+			path = Font;
+			sourceTree = "<group>";
+		};
+		38A947A42753BD1C00C35779 /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				F5783F48FA9D3B1D293B0605 /* SceneDelegate.swift */,
+				E6E1BF9516B98E407A33B34D /* AppDelegate.swift */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
+		38A947A52753BD2A00C35779 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				A381D1062074204EB4A2ACE6 /* AuthViewController.swift */,
+			);
+			path = ViewController;
 			sourceTree = "<group>";
 		};
 		505E643DCFDC66E05ECE4AC4 /* Project */ = {
@@ -122,9 +160,10 @@
 		ABE28A5A71E9D590F1CF78CA /* Sources */ = {
 			isa = PBXGroup;
 			children = (
-				E6E1BF9516B98E407A33B34D /* AppDelegate.swift */,
-				F5783F48FA9D3B1D293B0605 /* SceneDelegate.swift */,
-				A381D1062074204EB4A2ACE6 /* ViewController.swift */,
+				38A947A42753BD1C00C35779 /* Application */,
+				38A947A52753BD2A00C35779 /* ViewController */,
+				38A947A62753BD5B00C35779 /* Font.swift */,
+				38D9AD672753BEBE00AD1806 /* Color.swift */,
 			);
 			path = Sources;
 			sourceTree = "<group>";
@@ -144,7 +183,6 @@
 				02D1D3E1040B529D87EF4BBC /* Pods-SNS.debug.xcconfig */,
 				F6324C72A3889E87A0BFB925 /* Pods-SNS.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -179,8 +217,6 @@
 			isa = PBXProject;
 			attributes = {
 				ORGANIZATIONNAME = com.AppSoulte;
-				TargetAttributes = {
-				};
 			};
 			buildConfigurationList = 7E85EE9DDF3B27A0F1495E55 /* Build configuration list for PBXProject "SNS" */;
 			compatibilityVersion = "Xcode 13.0";
@@ -206,7 +242,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				602D8629E34C291E5301A407 /* Assets.xcassets in Resources */,
+				38A947A12753BC6600C35779 /* NotoSansCJKkr-Regular.otf in Resources */,
 				0B30C061CC03EA5F9C137916 /* LaunchScreen.storyboard in Resources */,
+				38A947A02753BC6600C35779 /* NotoSansCJKkr-Bold.otf in Resources */,
+				38A947A22753BC6600C35779 /* NotoSansCJKkr-Medium.otf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -275,9 +314,11 @@
 			files = (
 				AA9EB7E906EEADCCAE281EE5 /* Assets+SNS.swift in Sources */,
 				1DCB5C533FDCD12789165887 /* Bundle+SNS.swift in Sources */,
+				38D9AD682753BEBE00AD1806 /* Color.swift in Sources */,
+				38A947A72753BD5B00C35779 /* Font.swift in Sources */,
 				AFA3F7D4193BD996A341ACAF /* AppDelegate.swift in Sources */,
 				1C8FE85621E90BFE074A20E8 /* SceneDelegate.swift in Sources */,
-				2A9F698855A02003EB67F46D /* ViewController.swift in Sources */,
+				2A9F698855A02003EB67F46D /* AuthViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
