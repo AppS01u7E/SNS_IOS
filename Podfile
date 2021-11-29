@@ -15,7 +15,7 @@ target 'SNS' do
   pod 'FSCalendar'
   pod 'JJFloatingActionButton'
   pod 'Socket.IO-Client-Swift', '~> 15.2.0'
-  pod 'DropDown', '2.3.2'
+  pod 'DropDown'
   pod 'Hashtags'
   pod 'YNSearch'
 end
