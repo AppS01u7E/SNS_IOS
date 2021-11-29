@@ -10,4 +10,6 @@ import Foundation
 
 enum Color: String {
     case btnColor = "BtnColor"
+    case mainColor = "MainColor"
+    case textFieldColor = "TextFieldColor"
 }
