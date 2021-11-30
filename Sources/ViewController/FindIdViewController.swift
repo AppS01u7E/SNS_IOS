@@ -33,7 +33,7 @@ class FindIdViewController: UIViewController {
     private let postEmail = UILabel().then {
         $0.text = "· 아이디 정보를 이메일에 전송했습니다. \n · 이메일이 오지 않았다면 입력하시 이메일이 정확한지 확인해주세요."
         $0.textColor = .lightGray
-        $0.font = .init(name: Font.bold.rawValue, size: 7)
+        $0.font = .init(name: Font.bold.rawValue, size: 10)
         $0.numberOfLines = 2
     }
     
