@@ -17,6 +17,8 @@
 		38A947A72753BD5B00C35779 /* Font.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38A947A62753BD5B00C35779 /* Font.swift */; };
 		38D9AD682753BEBE00AD1806 /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38D9AD672753BEBE00AD1806 /* Color.swift */; };
 		38DE37C527551446003095DE /* FinishSignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38DE37C427551446003095DE /* FinishSignUpViewController.swift */; };
+		38DE37CA2755F54B003095DE /* FindIdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38DE37C92755F54B003095DE /* FindIdViewController.swift */; };
+		38F238EA27560AAD00E6DB46 /* ChangePasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38F238E927560AAD00E6DB46 /* ChangePasswordViewController.swift */; };
 		38FCE2D2275448B2002A3310 /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38FCE2D1275448B2002A3310 /* SignInViewController.swift */; };
 		38FCE2D4275449A4002A3310 /* AuthView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38FCE2D3275449A4002A3310 /* AuthView.swift */; };
 		38FCE2D7275451EB002A3310 /* Shadow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38FCE2D6275451EB002A3310 /* Shadow.swift */; };
@@ -52,6 +54,8 @@
 		38A947A62753BD5B00C35779 /* Font.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Font.swift; sourceTree = "<group>"; };
 		38D9AD672753BEBE00AD1806 /* Color.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Color.swift; sourceTree = "<group>"; };
 		38DE37C427551446003095DE /* FinishSignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FinishSignUpViewController.swift; sourceTree = "<group>"; };
+		38DE37C92755F54B003095DE /* FindIdViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FindIdViewController.swift; sourceTree = "<group>"; };
+		38F238E927560AAD00E6DB46 /* ChangePasswordViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChangePasswordViewController.swift; sourceTree = "<group>"; };
 		38FCE2D1275448B2002A3310 /* SignInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInViewController.swift; sourceTree = "<group>"; };
 		38FCE2D3275449A4002A3310 /* AuthView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthView.swift; sourceTree = "<group>"; };
 		38FCE2D6275451EB002A3310 /* Shadow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Shadow.swift; sourceTree = "<group>"; };
@@ -127,6 +131,8 @@
 				38FCE2DA2754DCF9002A3310 /* SignUpViewController.swift */,
 				38FCE2DC2754E38E002A3310 /* SetInformationViewController.swift */,
 				38DE37C427551446003095DE /* FinishSignUpViewController.swift */,
+				38DE37C92755F54B003095DE /* FindIdViewController.swift */,
+				38F238E927560AAD00E6DB46 /* ChangePasswordViewController.swift */,
 			);
 			path = ViewController;
 			sourceTree = "<group>";
@@ -350,7 +356,9 @@
 				38FCE2D2275448B2002A3310 /* SignInViewController.swift in Sources */,
 				38FCE2DB2754DCF9002A3310 /* SignUpViewController.swift in Sources */,
 				AFA3F7D4193BD996A341ACAF /* AppDelegate.swift in Sources */,
+				38F238EA27560AAD00E6DB46 /* ChangePasswordViewController.swift in Sources */,
 				1C8FE85621E90BFE074A20E8 /* SceneDelegate.swift in Sources */,
+				38DE37CA2755F54B003095DE /* FindIdViewController.swift in Sources */,
 				38DE37C527551446003095DE /* FinishSignUpViewController.swift in Sources */,
 				38FCE2D7275451EB002A3310 /* Shadow.swift in Sources */,
 				2A9F698855A02003EB67F46D /* AuthViewController.swift in Sources */,
