@@ -11,12 +11,15 @@
 		1C8FE85621E90BFE074A20E8 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5783F48FA9D3B1D293B0605 /* SceneDelegate.swift */; };
 		1DCB5C533FDCD12789165887 /* Bundle+SNS.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1A433A3C0E9CE42FEFC42D4 /* Bundle+SNS.swift */; };
 		2A9F698855A02003EB67F46D /* AuthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A381D1062074204EB4A2ACE6 /* AuthViewController.swift */; };
+		3837D3DE27562A9E002F729A /* EmailVerificationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3837D3DD27562A9E002F729A /* EmailVerificationViewController.swift */; };
 		38A947A02753BC6600C35779 /* NotoSansCJKkr-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 38A9479D2753BC6500C35779 /* NotoSansCJKkr-Bold.otf */; };
 		38A947A12753BC6600C35779 /* NotoSansCJKkr-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = 38A9479E2753BC6500C35779 /* NotoSansCJKkr-Regular.otf */; };
 		38A947A22753BC6600C35779 /* NotoSansCJKkr-Medium.otf in Resources */ = {isa = PBXBuildFile; fileRef = 38A9479F2753BC6600C35779 /* NotoSansCJKkr-Medium.otf */; };
 		38A947A72753BD5B00C35779 /* Font.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38A947A62753BD5B00C35779 /* Font.swift */; };
 		38D9AD682753BEBE00AD1806 /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38D9AD672753BEBE00AD1806 /* Color.swift */; };
 		38DE37C527551446003095DE /* FinishSignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38DE37C427551446003095DE /* FinishSignUpViewController.swift */; };
+		38DE37CA2755F54B003095DE /* FindIdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38DE37C92755F54B003095DE /* FindIdViewController.swift */; };
+		38F238EA27560AAD00E6DB46 /* ChangePasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38F238E927560AAD00E6DB46 /* ChangePasswordViewController.swift */; };
 		38FCE2D2275448B2002A3310 /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38FCE2D1275448B2002A3310 /* SignInViewController.swift */; };
 		38FCE2D4275449A4002A3310 /* AuthView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38FCE2D3275449A4002A3310 /* AuthView.swift */; };
 		38FCE2D7275451EB002A3310 /* Shadow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38FCE2D6275451EB002A3310 /* Shadow.swift */; };
@@ -46,12 +49,15 @@
 		004BD366BBC0EF5EEC231782 /* Pods_SNS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SNS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		02D1D3E1040B529D87EF4BBC /* Pods-SNS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SNS.debug.xcconfig"; path = "Target Support Files/Pods-SNS/Pods-SNS.debug.xcconfig"; sourceTree = "<group>"; };
 		0EEA8CD7F771D3CD7594F3DC /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3837D3DD27562A9E002F729A /* EmailVerificationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmailVerificationViewController.swift; sourceTree = "<group>"; };
 		38A9479D2753BC6500C35779 /* NotoSansCJKkr-Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NotoSansCJKkr-Bold.otf"; sourceTree = "<group>"; };
 		38A9479E2753BC6500C35779 /* NotoSansCJKkr-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NotoSansCJKkr-Regular.otf"; sourceTree = "<group>"; };
 		38A9479F2753BC6600C35779 /* NotoSansCJKkr-Medium.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NotoSansCJKkr-Medium.otf"; sourceTree = "<group>"; };
 		38A947A62753BD5B00C35779 /* Font.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Font.swift; sourceTree = "<group>"; };
 		38D9AD672753BEBE00AD1806 /* Color.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Color.swift; sourceTree = "<group>"; };
 		38DE37C427551446003095DE /* FinishSignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FinishSignUpViewController.swift; sourceTree = "<group>"; };
+		38DE37C92755F54B003095DE /* FindIdViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FindIdViewController.swift; sourceTree = "<group>"; };
+		38F238E927560AAD00E6DB46 /* ChangePasswordViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChangePasswordViewController.swift; sourceTree = "<group>"; };
 		38FCE2D1275448B2002A3310 /* SignInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInViewController.swift; sourceTree = "<group>"; };
 		38FCE2D3275449A4002A3310 /* AuthView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthView.swift; sourceTree = "<group>"; };
 		38FCE2D6275451EB002A3310 /* Shadow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Shadow.swift; sourceTree = "<group>"; };
@@ -127,6 +133,9 @@
 				38FCE2DA2754DCF9002A3310 /* SignUpViewController.swift */,
 				38FCE2DC2754E38E002A3310 /* SetInformationViewController.swift */,
 				38DE37C427551446003095DE /* FinishSignUpViewController.swift */,
+				38DE37C92755F54B003095DE /* FindIdViewController.swift */,
+				38F238E927560AAD00E6DB46 /* ChangePasswordViewController.swift */,
+				3837D3DD27562A9E002F729A /* EmailVerificationViewController.swift */,
 			);
 			path = ViewController;
 			sourceTree = "<group>";
@@ -350,7 +359,10 @@
 				38FCE2D2275448B2002A3310 /* SignInViewController.swift in Sources */,
 				38FCE2DB2754DCF9002A3310 /* SignUpViewController.swift in Sources */,
 				AFA3F7D4193BD996A341ACAF /* AppDelegate.swift in Sources */,
+				38F238EA27560AAD00E6DB46 /* ChangePasswordViewController.swift in Sources */,
+				3837D3DE27562A9E002F729A /* EmailVerificationViewController.swift in Sources */,
 				1C8FE85621E90BFE074A20E8 /* SceneDelegate.swift in Sources */,
+				38DE37CA2755F54B003095DE /* FindIdViewController.swift in Sources */,
 				38DE37C527551446003095DE /* FinishSignUpViewController.swift in Sources */,
 				38FCE2D7275451EB002A3310 /* Shadow.swift in Sources */,
 				2A9F698855A02003EB67F46D /* AuthViewController.swift in Sources */,
