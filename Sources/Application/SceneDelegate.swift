@@ -14,7 +14,7 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         window = UIWindow(windowScene: windowScence)
         window?.windowScene = windowScence
 
-        window?.rootViewController = UINavigationController(rootViewController: EmailVerificationViewController())
+        window?.rootViewController = UINavigationController(rootViewController: MyPageViewController())
         window?.makeKeyAndVisible()
     }
 
