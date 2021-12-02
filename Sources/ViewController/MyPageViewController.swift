@@ -86,7 +86,7 @@ class MyPageViewController: UIViewController {
     }
     
     private let logoutBtn = UIButton(type: .system).then {
-        $0.setTitle("  계정 설정\t\t\t\t\t\t\t\t\t", for: .normal)
+        $0.setTitle("  로그아웃 \t\t\t\t\t\t\t\t\t", for: .normal)
         $0.setTitleColor(.red, for: .normal)
         $0.titleLabel?.font = .init(name: Font.bold.rawValue, size: 17)
         $0.contentHorizontalAlignment = .left
