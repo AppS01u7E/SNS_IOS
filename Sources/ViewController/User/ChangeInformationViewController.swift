@@ -5,7 +5,6 @@
 //  Created by 김기영 on 2021/12/02.
 //  Copyright © 2021 com.AppSoulte. All rights reserved.
 //
-
 import UIKit
 import SnapKit
 import Then
@@ -57,7 +56,10 @@ class ChangeInformationViewController: UIViewController {
         $0.titleLabel?.font = .init(name: Font.regular.rawValue, size: 13)
         $0.setImage(.init(systemName: "lock"), for: .normal)
         $0.tintColor = .lightGray
-        $0.imageEdgeInsets = UIEdgeInsets(top: $0.frame.size.height - 10/2, left: $0.frame.size.width    - 10/2, bottom: $0.frame.size.height - 10/2, right: $0.frame.size.width - 10/2)
+        $0.imageEdgeInsets = UIEdgeInsets(top: $0.frame.size.height - 10/2,
+                                          left: $0.frame.size.width - 10/2,
+                                          bottom: $0.frame.size.height - 10/2,
+                                          right: $0.frame.size.width - 10/2)
     }
     
     private let generalBtn = UIButton(type: .system).then {
