@@ -1,3 +1,11 @@
+//
+//  SceneDelegate.swift
+//  SNS
+//
+//  Created by 김기영 on 2021/12/02.
+//  Copyright © 2021 com.AppSoulte. All rights reserved.
+//
+
 import UIKit
 
 class SceneDelegate: UIResponder, UIWindowSceneDelegate {
@@ -48,4 +56,3 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
 
 
 }
-
